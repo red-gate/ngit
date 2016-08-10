@@ -62,5 +62,9 @@ namespace NGit.Api.Errors
 		public GitAPIException(string message) : base(message)
 		{
 		}
+
+	    public GitAPIException()
+	    {
+	    }
 	}
 }

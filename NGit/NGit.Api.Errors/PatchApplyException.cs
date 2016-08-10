@@ -65,5 +65,9 @@ namespace NGit.Api.Errors
 		public PatchApplyException(string message) : base(message)
 		{
 		}
-	}
+
+		public PatchApplyException()
+        {
+        }
+    }
 }
